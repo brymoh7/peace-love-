@@ -1,0 +1,264 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  background-color:#3b626f; 
+}
+
+.header{
+  width:100%;
+  height: 50px;
+  background-color:#3b626f; 
+}
+
+.logo{
+  width: 35px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  left:10px;
+}
+
+.logo_name{
+  font-size: 18px;
+  color: #99c4c4;
+  font-family: 'Merienda', cursive;
+  position: absolute;
+  top:-15px;
+  left: 55px;
+}
+
+.bar_1 , .bar_2 , .bar_3, .bar_4{
+  width: 22px;
+  height: 4px;
+  background-color: #99c4c4;
+  border-radius: 4px;
+  position: absolute;
+  top: 15px;
+  left: 85%;
+}
+
+.bar_2{
+  width:14px;
+  top: 22px;
+}
+
+.bar_3{
+  width:6px;
+  top: 22px;
+  margin-left: 16px;
+}
+
+.bar_4{
+  top: 29px;
+}
+
+.box{
+  width: 100%;
+  height: 580px;
+  background-image: url('https://i.ibb.co/grkBbnd/Main-img.jpg');
+  background-size: cover;
+}
+
+h4{
+  display: inline;
+  font-size: 20px;
+  color: #99c4c4;
+  font-family: 'Merienda', cursive;
+  margin-left:20px;
+  position: absolute;
+  top: 120px;
+}
+
+h3{
+  font-size: 55px;
+  font-family: 'Akronim', cursive;
+  color:#7fcdcb;
+  margin-left:20px;
+  position: absolute;
+  top: 125px;
+}
+
+.quotes{
+  font-size: 20px;
+  color: #99c4c4;
+  font-family: 'Merienda', cursive;
+  margin-left:20px;
+  position: absolute;
+  top: 380px;
+}
+
+.slide_png{
+  width:100%;
+  position: absolute;
+  top:400px;
+}
+
+h2{
+  font-size: 18px;
+  color: #99c4c4;
+  font-family: 'Merienda', cursive;
+  position: absolute;
+  top:590px;
+  left:100px;
+}
+
+.sleeping_cat{
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top:575px;
+  left: 15px;
+}
+
+.text_1{
+  font-size: 17px;
+  color: #99c4c4;
+  font-family: 'Merienda', cursive;
+  text-align: center;
+  padding: 5px 10px 0px 10px;
+}
+
+.pawprint_1, .pawprint_2, .pawprint_3, .pawprint_4, .pawprint_5, .pawprint_6, .pawprint_7, .pawprint_8, .pawprint_9, .pawprint_10, .pawprint_11, .pawprint_12, .pawprint_13{ 
+  width:40px;
+  height:40px;
+  opacity:.3;
+  position: absolute;
+  top: 800px;
+  left: 70px;
+  transform: rotateZ(-30deg);
+}
+
+.pawprint_2{
+  top:720px;
+  left:200px;
+  transform: rotateZ(15deg);
+}
+
+.pawprint_3{
+  top:880px;
+  left:240px;
+  opacity:.2;
+  transform: rotateZ(30deg);
+}
+
+.pawprint_4{
+  top:960px;
+  left:60px;
+  opacity:.3;
+  transform: rotateZ(-30deg);
+}
+
+.pawprint_5{
+  top:1080px;
+  left:130px;
+  transform: rotateZ(-25deg);
+}
+
+.pawprint_6{
+  top:980px;
+  left:265px;
+  transform: rotateZ(15deg);
+}
+
+.pawprint_7{
+  top:1200px;
+  left:80px;
+  transform: rotateZ(15deg);
+}
+
+.pawprint_8{
+  top:1280px;
+  left:155px;
+  transform: rotateZ(15deg);
+}
+
+.pawprint_9{
+  top:1190px;
+  left:315px;
+  transform: rotateZ(15deg);
+}
+
+.pawprint_10{
+  top:1335px;
+  left:255px;
+  transform: rotateZ(-25deg);
+}
+
+.pawprint_11{
+  top:1420px;
+  left:90px;
+  transform: rotateZ(-15deg);
+}
+
+.pawprint_12{
+  top:1500px;
+  left:50px;
+  transform: rotateZ(-25deg);
+}
+
+.pawprint_13{
+  top:1545px;
+  left:195px;
+  transform: rotateZ(-35deg);
+}
+
+
+.outro_img{
+    width:100%;
+    position:absolute ;
+    top:1450px;
+}
+
+.visit{
+  display:inline;
+  font-size:24px;
+  font-family: 'Akronim', cursive;
+  color: #004e92;
+  position:absolute ;
+  top:1610px;
+  left:30px;
+}
+
+.outro{
+    width:100%;
+    height:60px;
+    background-color:#7fcdcb;
+    margin-top:80px;
+}
+
+.yoga_day{
+  font-size:16px;
+  color: #3b626f;
+  text-decoration:underline ;
+  font-family: 'Merienda', cursive;
+  position:absolute ;
+  top:1650px;
+  left:30px;
+}
+
+.bicycle_day{
+  font-size:16px;
+  color: #3b626f;
+  text-decoration:underline ;
+  font-family: 'Merienda', cursive;
+  padding-top:10px;
+  padding-left:30px;
+}
+
+.walls{
+  font-size:16px;
+  color: #3b626f;
+  text-decoration:underline ;
+  font-family: 'Merienda', cursive;
+  padding-left:30px;
+  margin-top:-15px;
+}
+
+a:link{
+    text-decoration:none;
+}
+
